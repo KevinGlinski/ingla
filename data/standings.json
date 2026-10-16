@@ -1,0 +1,703 @@
+{
+  "generated_at": "2026-10-16T01:03:17+00:00",
+  "season": "25-26",
+  "cutoff": "2026-05-07",
+  "sectionals": [
+    {
+      "name": "Sectional 7",
+      "host": "Perry Meridian",
+      "standings": [
+        {
+          "name": "Brownsburg",
+          "maxpreps": "https://www.maxpreps.com/in/brownsburg/brownsburg-bulldogs/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 16,
+            "l": 3,
+            "t": 0
+          },
+          "sectional": {
+            "w": 4,
+            "l": 0,
+            "t": 0
+          },
+          "wins_over": [
+            {
+              "opponent": "Southport",
+              "score": "19-1",
+              "date": "2026-03-10"
+            },
+            {
+              "opponent": "Perry Meridian",
+              "score": "18-2",
+              "date": "2026-04-07"
+            },
+            {
+              "opponent": "Franklin Community",
+              "score": "21-6",
+              "date": "2026-04-08"
+            },
+            {
+              "opponent": "Roncalli",
+              "score": "15-6",
+              "date": "2026-04-22"
+            }
+          ],
+          "seed": 1
+        },
+        {
+          "name": "Roncalli",
+          "maxpreps": "https://www.maxpreps.com/in/indianapolis/roncalli-royals/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 7,
+            "l": 7,
+            "t": 0
+          },
+          "sectional": {
+            "w": 3,
+            "l": 1,
+            "t": 0
+          },
+          "wins_over": [
+            {
+              "opponent": "Southport",
+              "score": "14-2",
+              "date": "2026-04-14"
+            },
+            {
+              "opponent": "Perry Meridian",
+              "score": "12-3",
+              "date": "2026-04-16"
+            },
+            {
+              "opponent": "Franklin Community",
+              "score": "15-9",
+              "date": "2026-04-30"
+            }
+          ],
+          "seed": 2
+        },
+        {
+          "name": "Perry Meridian",
+          "maxpreps": "https://www.maxpreps.com/in/indianapolis/perry-meridian-falcons/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 5,
+            "l": 8,
+            "t": 0
+          },
+          "sectional": {
+            "w": 2,
+            "l": 2,
+            "t": 0
+          },
+          "wins_over": [
+            {
+              "opponent": "Southport",
+              "score": "12-3",
+              "date": "2026-04-03"
+            },
+            {
+              "opponent": "Franklin Community",
+              "score": "10-8",
+              "date": "2026-04-13"
+            }
+          ],
+          "seed": 3
+        },
+        {
+          "name": "Franklin Community",
+          "maxpreps": "https://www.maxpreps.com/in/franklin/franklin-community-grizzly-cubs/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 2,
+            "l": 9,
+            "t": 0
+          },
+          "sectional": {
+            "w": 1,
+            "l": 3,
+            "t": 0
+          },
+          "wins_over": [
+            {
+              "opponent": "Southport",
+              "score": "16-6",
+              "date": "2026-04-23"
+            }
+          ],
+          "seed": 4
+        },
+        {
+          "name": "Southport",
+          "maxpreps": "https://www.maxpreps.com/in/indianapolis/southport-cardinals/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 2,
+            "l": 10,
+            "t": 0
+          },
+          "sectional": {
+            "w": 0,
+            "l": 4,
+            "t": 0
+          },
+          "wins_over": [],
+          "seed": 5
+        }
+      ],
+      "bracket": {
+        "size": 8,
+        "rounds": [
+          [
+            {
+              "top": {
+                "seed": 1,
+                "name": "Brownsburg"
+              },
+              "bottom": null,
+              "winner": {
+                "seed": 1,
+                "name": "Brownsburg"
+              },
+              "score": null,
+              "date": null,
+              "bye": true
+            },
+            {
+              "top": {
+                "seed": 4,
+                "name": "Franklin Community"
+              },
+              "bottom": {
+                "seed": 5,
+                "name": "Southport"
+              },
+              "winner": {
+                "seed": 4,
+                "name": "Franklin Community"
+              },
+              "score": "17-6",
+              "date": "2026-05-07",
+              "bye": false
+            },
+            {
+              "top": {
+                "seed": 2,
+                "name": "Roncalli"
+              },
+              "bottom": null,
+              "winner": {
+                "seed": 2,
+                "name": "Roncalli"
+              },
+              "score": null,
+              "date": null,
+              "bye": true
+            },
+            {
+              "top": {
+                "seed": 3,
+                "name": "Perry Meridian"
+              },
+              "bottom": null,
+              "winner": {
+                "seed": 3,
+                "name": "Perry Meridian"
+              },
+              "score": null,
+              "date": null,
+              "bye": true
+            }
+          ],
+          [
+            {
+              "top": {
+                "seed": 1,
+                "name": "Brownsburg"
+              },
+              "bottom": {
+                "seed": 4,
+                "name": "Franklin Community"
+              },
+              "winner": {
+                "seed": 1,
+                "name": "Brownsburg"
+              },
+              "score": "19-5",
+              "date": "2026-05-09",
+              "bye": false
+            },
+            {
+              "top": {
+                "seed": 2,
+                "name": "Roncalli"
+              },
+              "bottom": {
+                "seed": 3,
+                "name": "Perry Meridian"
+              },
+              "winner": {
+                "seed": 2,
+                "name": "Roncalli"
+              },
+              "score": "12-3",
+              "date": "2026-05-09",
+              "bye": false
+            }
+          ],
+          [
+            {
+              "top": {
+                "seed": 1,
+                "name": "Brownsburg"
+              },
+              "bottom": {
+                "seed": 2,
+                "name": "Roncalli"
+              },
+              "winner": {
+                "seed": 1,
+                "name": "Brownsburg"
+              },
+              "score": "14-3",
+              "date": "2026-05-15",
+              "bye": false
+            }
+          ]
+        ],
+        "champion": {
+          "seed": 1,
+          "name": "Brownsburg"
+        }
+      },
+      "games": [
+        {
+          "date": "2026-03-10T18:00:00",
+          "home": "Brownsburg",
+          "away": "Southport",
+          "neutral": false,
+          "home_score": 19,
+          "away_score": 1,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/brownsburg-vs-southport-indianapolis/3-10-2026/?c=ea6e54af-7900-42dc-a0a0-6d27a18c1923"
+        },
+        {
+          "date": "2026-04-03T18:00:00",
+          "home": "Perry Meridian",
+          "away": "Southport",
+          "neutral": false,
+          "home_score": 12,
+          "away_score": 3,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/perry-meridian-indianapolis-vs-southport-indianapolis/4-3-2026/?c=c8e7a3d1-fbb4-4319-b334-3c2c40d9158b"
+        },
+        {
+          "date": "2026-04-07T18:30:00",
+          "home": "Brownsburg",
+          "away": "Perry Meridian",
+          "neutral": false,
+          "home_score": 18,
+          "away_score": 2,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/brownsburg-vs-perry-meridian-indianapolis/4-7-2026/?c=a32650ac-3f2c-45c4-a707-3eb4116a781f"
+        },
+        {
+          "date": "2026-04-08T18:30:00",
+          "home": "Franklin Community",
+          "away": "Brownsburg",
+          "neutral": false,
+          "home_score": 6,
+          "away_score": 21,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/brownsburg-vs-franklin-community/4-8-2026/?c=0ad3edad-c004-4897-ac05-5e041d85e93a"
+        },
+        {
+          "date": "2026-04-13T18:30:00",
+          "home": "Perry Meridian",
+          "away": "Franklin Community",
+          "neutral": false,
+          "home_score": 10,
+          "away_score": 8,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/franklin-community-vs-perry-meridian-indianapolis/4-13-2026/?c=91319974-86fb-4baf-b3ab-e680687d790e"
+        },
+        {
+          "date": "2026-04-14T18:30:00",
+          "home": "Roncalli",
+          "away": "Southport",
+          "neutral": false,
+          "home_score": 14,
+          "away_score": 2,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/roncalli-indianapolis-vs-southport-indianapolis/4-14-2026/?c=0e38a4d4-1115-4920-9665-3d504b7ce98a"
+        },
+        {
+          "date": "2026-04-16T18:30:00",
+          "home": "Roncalli",
+          "away": "Perry Meridian",
+          "neutral": false,
+          "home_score": 12,
+          "away_score": 3,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/perry-meridian-indianapolis-vs-roncalli-indianapolis/4-16-2026/?c=c492825c-1df4-4b2d-bc9d-72c9ac940872"
+        },
+        {
+          "date": "2026-04-22T18:30:00",
+          "home": "Roncalli",
+          "away": "Brownsburg",
+          "neutral": false,
+          "home_score": 6,
+          "away_score": 15,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/brownsburg-vs-roncalli-indianapolis/4-22-2026/?c=2a759ea9-eb3c-48a8-be23-1124c293659c"
+        },
+        {
+          "date": "2026-04-22T19:00:00",
+          "home": "Franklin Community",
+          "away": "Perry Meridian",
+          "neutral": false,
+          "home_score": null,
+          "away_score": null,
+          "status": "unreported",
+          "counts": false,
+          "note": "no score yet",
+          "url": null
+        },
+        {
+          "date": "2026-04-23T18:00:00",
+          "home": "Southport",
+          "away": "Franklin Community",
+          "neutral": false,
+          "home_score": 6,
+          "away_score": 16,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/franklin-community-vs-southport-indianapolis/4-23-2026/?c=928bdcba-0424-43ce-9c4e-54d78ffa3f15"
+        },
+        {
+          "date": "2026-04-30T18:30:00",
+          "home": "Roncalli",
+          "away": "Franklin Community",
+          "neutral": false,
+          "home_score": 15,
+          "away_score": 9,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/franklin-community-vs-roncalli-indianapolis/4-30-2026/?c=a05e1cd8-37b5-4e87-a0e9-64483f2143ff"
+        },
+        {
+          "date": "2026-05-07T19:00:00",
+          "home": "Franklin Community",
+          "away": "Southport",
+          "neutral": false,
+          "home_score": 17,
+          "away_score": 6,
+          "status": "final",
+          "counts": false,
+          "note": "tournament",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/franklin-community-vs-southport-indianapolis/5-7-2026/?c=596982f9-03d8-4071-92bb-0b0ae18176e7"
+        },
+        {
+          "date": "2026-05-09T09:00:00",
+          "home": "Brownsburg",
+          "away": "Franklin Community",
+          "neutral": false,
+          "home_score": 19,
+          "away_score": 5,
+          "status": "final",
+          "counts": false,
+          "note": "tournament",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/brownsburg-vs-franklin-community/5-9-2026/?c=77a98a93-f8da-4d00-9074-f602bfafc99a"
+        },
+        {
+          "date": "2026-05-09T11:00:00",
+          "home": "Perry Meridian",
+          "away": "Roncalli",
+          "neutral": true,
+          "home_score": 3,
+          "away_score": 12,
+          "status": "final",
+          "counts": false,
+          "note": "tournament",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/perry-meridian-indianapolis-vs-roncalli-indianapolis/5-9-2026/?c=72ce6208-8f08-4bce-97e6-de7bfb1d6fe4"
+        },
+        {
+          "date": "2026-05-15T20:00:00",
+          "home": "Brownsburg",
+          "away": "Roncalli",
+          "neutral": false,
+          "home_score": 14,
+          "away_score": 3,
+          "status": "final",
+          "counts": false,
+          "note": "tournament",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/brownsburg-vs-roncalli-indianapolis/5-15-2026/?c=708fe1d0-b9d7-4aa7-a55f-3903abcc58f9"
+        }
+      ]
+    },
+    {
+      "name": "Sectional 8",
+      "host": "Bosse",
+      "standings": [
+        {
+          "name": "Castle",
+          "maxpreps": "https://www.maxpreps.com/in/newburgh/castle-knights/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 10,
+            "l": 5,
+            "t": 0
+          },
+          "sectional": {
+            "w": 2,
+            "l": 0,
+            "t": 0
+          },
+          "wins_over": [
+            {
+              "opponent": "Bosse",
+              "score": "12-8",
+              "date": "2026-03-18"
+            },
+            {
+              "opponent": "Evansville Central",
+              "score": "12-3",
+              "date": "2026-04-29"
+            }
+          ],
+          "seed": 1
+        },
+        {
+          "name": "Bosse",
+          "maxpreps": "https://www.maxpreps.com/in/evansville/evansville-bosse-bulldogs/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 6,
+            "l": 9,
+            "t": 0
+          },
+          "sectional": {
+            "w": 1,
+            "l": 1,
+            "t": 0
+          },
+          "wins_over": [
+            {
+              "opponent": "Evansville Central",
+              "score": "6-4",
+              "date": "2026-04-13"
+            }
+          ],
+          "seed": 2
+        },
+        {
+          "name": "Evansville Central",
+          "maxpreps": "https://www.maxpreps.com/in/evansville/evansville-central-bears/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 3,
+            "l": 9,
+            "t": 0
+          },
+          "sectional": {
+            "w": 0,
+            "l": 2,
+            "t": 0
+          },
+          "wins_over": [],
+          "seed": 3
+        },
+        {
+          "name": "Evansville Harrison",
+          "maxpreps": "https://www.maxpreps.com/in/evansville/evansville-harrison-warriors/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 0,
+            "l": 0,
+            "t": 0
+          },
+          "sectional": {
+            "w": 0,
+            "l": 0,
+            "t": 0
+          },
+          "wins_over": [],
+          "seed": 4
+        }
+      ],
+      "bracket": {
+        "size": 4,
+        "rounds": [
+          [
+            {
+              "top": {
+                "seed": 1,
+                "name": "Castle"
+              },
+              "bottom": {
+                "seed": 4,
+                "name": "Evansville Harrison"
+              },
+              "winner": {
+                "seed": 1,
+                "name": "Castle"
+              },
+              "score": null,
+              "date": null,
+              "bye": false
+            },
+            {
+              "top": {
+                "seed": 2,
+                "name": "Bosse"
+              },
+              "bottom": {
+                "seed": 3,
+                "name": "Evansville Central"
+              },
+              "winner": {
+                "seed": 2,
+                "name": "Bosse"
+              },
+              "score": "10-6",
+              "date": "2026-05-12",
+              "bye": false
+            }
+          ],
+          [
+            {
+              "top": {
+                "seed": 1,
+                "name": "Castle"
+              },
+              "bottom": {
+                "seed": 2,
+                "name": "Bosse"
+              },
+              "winner": {
+                "seed": 1,
+                "name": "Castle"
+              },
+              "score": "14-6",
+              "date": "2026-05-15",
+              "bye": false
+            }
+          ]
+        ],
+        "champion": {
+          "seed": 1,
+          "name": "Castle"
+        }
+      },
+      "games": [
+        {
+          "date": "2026-03-18T19:30:00",
+          "home": "Castle",
+          "away": "Bosse",
+          "neutral": false,
+          "home_score": 12,
+          "away_score": 8,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/castle-newburgh-vs-evansville-bosse/3-18-2026/?c=b29ee8ab-e7c2-4f5a-9adb-4a79921b3022"
+        },
+        {
+          "date": "2026-04-13T19:00:00",
+          "home": "Evansville Central",
+          "away": "Bosse",
+          "neutral": false,
+          "home_score": 4,
+          "away_score": 6,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/evansville-bosse-vs-evansville-central/4-13-2026/?c=1ce9cc5e-00c9-4fe2-a55c-2fc66eb3467e"
+        },
+        {
+          "date": "2026-04-21T19:00:00",
+          "home": "Castle",
+          "away": "Evansville Harrison",
+          "neutral": false,
+          "home_score": null,
+          "away_score": null,
+          "status": "unreported",
+          "counts": false,
+          "note": "no score yet",
+          "url": null
+        },
+        {
+          "date": "2026-04-29T19:00:00",
+          "home": "Castle",
+          "away": "Evansville Central",
+          "neutral": false,
+          "home_score": 12,
+          "away_score": 3,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/castle-newburgh-vs-evansville-central/4-29-2026/?c=7a32bb7f-7bdd-4db7-93b5-ea1e058513f4"
+        },
+        {
+          "date": "2026-05-01T19:00:00",
+          "home": "Evansville Harrison",
+          "away": "Evansville Central",
+          "neutral": false,
+          "home_score": null,
+          "away_score": null,
+          "status": "unreported",
+          "counts": false,
+          "note": "no score yet",
+          "url": null
+        },
+        {
+          "date": "2026-05-06T19:00:00",
+          "home": "Evansville Harrison",
+          "away": "Bosse",
+          "neutral": false,
+          "home_score": null,
+          "away_score": null,
+          "status": "unreported",
+          "counts": false,
+          "note": "no score yet",
+          "url": null
+        },
+        {
+          "date": "2026-05-12T19:00:00",
+          "home": "Bosse",
+          "away": "Evansville Central",
+          "neutral": true,
+          "home_score": 10,
+          "away_score": 6,
+          "status": "final",
+          "counts": false,
+          "note": "tournament",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/evansville-bosse-vs-evansville-central/5-12-2026/?c=355ad6ce-7d24-4ae3-af0a-6d45d96d0150"
+        },
+        {
+          "date": "2026-05-15T19:00:00",
+          "home": "Castle",
+          "away": "Bosse",
+          "neutral": false,
+          "home_score": 14,
+          "away_score": 6,
+          "status": "final",
+          "counts": false,
+          "note": "tournament",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/castle-newburgh-vs-evansville-bosse/5-15-2026/?c=405bda43-4791-40c6-ac88-d2c8586f709e"
+        }
+      ]
+    }
+  ]
+}

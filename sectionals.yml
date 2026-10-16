@@ -1,0 +1,34 @@
+# MaxPreps season code. "25-26" is the Spring 2026 season.
+season: 25-26
+sport: lacrosse/girls
+
+# First day of the sectional tournament. Games on or after this date do
+# not count for seeding; they fill in the bracket results instead.
+# Optional: remove it until the tournament dates are known.
+cutoff: 2026-05-07
+
+sectionals:
+  - name: Sectional 7
+    host: Perry Meridian
+    schools:
+      - name: Perry Meridian
+        maxpreps: https://www.maxpreps.com/in/indianapolis/perry-meridian-falcons/
+      - name: Roncalli
+        maxpreps: https://www.maxpreps.com/in/indianapolis/roncalli-royals/
+      - name: Brownsburg
+        maxpreps: https://www.maxpreps.com/in/brownsburg/brownsburg-bulldogs/
+      - name: Southport
+        maxpreps: https://www.maxpreps.com/in/indianapolis/southport-cardinals/
+      - name: Franklin Community
+        maxpreps: https://www.maxpreps.com/in/franklin/franklin-community-grizzly-cubs/
+  - name: Sectional 8
+    host: Bosse
+    schools:
+      - name: Bosse
+        maxpreps: https://www.maxpreps.com/in/evansville/evansville-bosse-bulldogs/
+      - name: Evansville Central
+        maxpreps: https://www.maxpreps.com/in/evansville/evansville-central-bears/
+      - name: Castle
+        maxpreps: https://www.maxpreps.com/in/newburgh/castle-knights/
+      - name: Evansville Harrison
+        maxpreps: https://www.maxpreps.com/in/evansville/evansville-harrison-warriors/

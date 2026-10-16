@@ -1,0 +1,43 @@
+# Scheduled workflows run only from the default branch, so this file must
+# be on main. It builds on gh-pages and commits the new data file there.
+name: Update sectional standings
+
+on:
+  schedule:
+    - cron: "0 11 * * *" # daily, 6-7 AM Indiana time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-standings
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - run: python scripts/build_standings.py
+
+      - name: Commit if changed
+        run: |
+          git add data/standings.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update sectional standings"
+          git push

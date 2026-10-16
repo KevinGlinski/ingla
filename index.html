@@ -1,1 +1,173 @@
-hello <b>world</b>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>INGLA Sectional Standings</title>
+  <style>
+    :root {
+      --bg: #f6f7f9; --card: #fff; --text: #1d2330; --muted: #6b7280;
+      --line: #e3e6eb; --accent: #1f5fbf; --win: #e8f1ff; --faded: #f0f1f3;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #12151b; --card: #1b1f27; --text: #e6e8ec; --muted: #9aa1ad;
+        --line: #2c323d; --accent: #6ea3ff; --win: #1e2b44; --faded: #20242c;
+      }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 15px/1.45 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: var(--bg); color: var(--text); }
+    header, main { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+    header { padding-top: 24px; }
+    h1 { margin: 0 0 4px; font-size: 1.6rem; }
+    h2 { margin: 0 0 4px; font-size: 1.3rem; }
+    h3 { margin: 20px 0 8px; font-size: 1rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+    .meta { color: var(--muted); font-size: .9rem; }
+    nav { margin: 12px 0 0; display: flex; gap: 8px; flex-wrap: wrap; }
+    nav a { color: var(--accent); text-decoration: none; padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); }
+    section.sectional { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px; margin: 20px 0; }
+    a { color: var(--accent); }
+
+    .bracket { display: flex; gap: 24px; overflow-x: auto; padding-bottom: 8px; }
+    .round { display: flex; flex-direction: column; min-width: 220px; }
+    .round-title { font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 8px; }
+    .round-games { display: flex; flex-direction: column; justify-content: space-around; flex: 1; gap: 12px; }
+    .match { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+    .match.bye { opacity: .45; }
+    .slot { display: flex; align-items: center; gap: 8px; padding: 6px 10px; }
+    .slot + .slot { border-top: 1px solid var(--line); }
+    .slot.won { background: var(--win); font-weight: 600; }
+    .slot.tbd { color: var(--muted); font-style: italic; }
+    .seed { width: 1.4em; color: var(--muted); font-size: .85rem; text-align: right; }
+    .match-info { font-size: .8rem; color: var(--muted); padding: 4px 10px; background: var(--faded); }
+    .champion { align-self: center; min-width: 160px; text-align: center; }
+    .champion .name { font-weight: 700; font-size: 1.1rem; }
+
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    th { font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+    td.num { white-space: nowrap; }
+    tr.not-counted td { color: var(--muted); }
+    .tag { font-size: .75rem; padding: 1px 6px; border-radius: 4px; background: var(--faded); color: var(--muted); white-space: nowrap; }
+    .tag.counts { background: var(--win); color: var(--accent); }
+    .table-wrap { overflow-x: auto; }
+    .error { color: #c0392b; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>INGLA Sectional Standings</h1>
+    <div class="meta" id="meta">Loading…</div>
+    <nav id="nav"></nav>
+  </header>
+  <main id="app"></main>
+
+  <script>
+    const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+    const record = (r) => `${r.w}-${r.l}${r.t ? "-" + r.t : ""}`;
+    const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const shortDate = (iso) => {
+      const [y, m, d] = iso.slice(0, 10).split("-").map(Number);
+      return `${MONTHS[m - 1]} ${d}`;
+    };
+    const seasonLabel = (season) => `Spring 20${season.split("-")[1]}`;
+
+    function roundName(i, total) {
+      const left = total - i;
+      if (left === 1) return "Final";
+      if (left === 2) return "Semifinals";
+      return i === 0 ? "First Round" : `Round ${i + 1}`;
+    }
+
+    function slotHtml(team, winner, bye) {
+      if (!team) return `<div class="slot tbd"><span class="seed"></span>Bye</div>`;
+      if (!team.name) return `<div class="slot tbd"><span class="seed"></span>TBD</div>`;
+      const won = !bye && winner && winner.name === team.name;
+      return `<div class="slot${won ? " won" : ""}"><span class="seed">${team.seed}</span>${esc(team.name)}</div>`;
+    }
+
+    function bracketHtml(bracket) {
+      const rounds = bracket.rounds.map((games, i) => {
+        const cards = games.map((m) => {
+          let info = "";
+          if (m.score) info = `<div class="match-info">${esc(m.score)} · ${shortDate(m.date)}</div>`;
+          else if (!m.bye && m.winner && m.winner.name) info = `<div class="match-info">Score not reported</div>`;
+          return `<div class="match${m.bye ? " bye" : ""}">${slotHtml(m.top, m.winner, m.bye)}${slotHtml(m.bottom, m.winner, m.bye)}${info}</div>`;
+        }).join("");
+        return `<div class="round"><div class="round-title">${roundName(i, bracket.rounds.length)}</div><div class="round-games">${cards}</div></div>`;
+      }).join("");
+      const champ = bracket.champion && bracket.champion.name
+        ? `<div class="round champion"><div class="round-title">Champion</div><div class="name">${esc(bracket.champion.name)}</div></div>`
+        : "";
+      return `<div class="bracket">${rounds}${champ}</div>`;
+    }
+
+    function standingsHtml(rows) {
+      const body = rows.map((r) => `
+        <tr>
+          <td class="num">${r.seed}</td>
+          <td><a href="${esc(r.maxpreps)}" target="_blank" rel="noopener">${esc(r.name)}</a></td>
+          <td class="num"><strong>${record(r.sectional)}</strong></td>
+          <td class="num">${record(r.overall)}</td>
+          <td>${r.wins_over.map((w) => `${esc(w.opponent)} (${esc(w.score)})`).join(", ") || "—"}</td>
+        </tr>`).join("");
+      return `<div class="table-wrap"><table>
+        <thead><tr><th>Seed</th><th>Team</th><th>Sectional</th><th>Overall</th><th>Sectional wins over</th></tr></thead>
+        <tbody>${body}</tbody></table></div>`;
+    }
+
+    function gamesHtml(games) {
+      if (!games.length) return `<p class="meta">No sectional games found.</p>`;
+      const body = games.map((g) => {
+        const sep = g.neutral ? "vs" : "@";
+        let result;
+        if (g.status === "final") {
+          const homeWon = g.home_score > g.away_score;
+          const w = homeWon ? g.home : g.away;
+          result = `${esc(w)} ${Math.max(g.home_score, g.away_score)}-${Math.min(g.home_score, g.away_score)}`;
+        } else {
+          result = g.status === "unreported" ? "Score not reported" : "Scheduled";
+        }
+        const tag = g.counts ? `<span class="tag counts">counts</span>` : g.note ? `<span class="tag">${esc(g.note)}</span>` : "";
+        return `<tr class="${g.counts ? "" : "not-counted"}">
+          <td class="num">${shortDate(g.date)}</td>
+          <td>${esc(g.away)} ${sep} ${esc(g.home)}</td>
+          <td><a href="${esc(g.url)}" target="_blank" rel="noopener">${result}</a></td>
+          <td>${tag}</td>
+        </tr>`;
+      }).join("");
+      return `<div class="table-wrap"><table>
+        <thead><tr><th>Date</th><th>Game</th><th>Result</th><th>Seeding</th></tr></thead>
+        <tbody>${body}</tbody></table></div>`;
+    }
+
+    async function main() {
+      const meta = document.getElementById("meta");
+      try {
+        const res = await fetch("data/standings.json", { cache: "no-cache" });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        const updated = new Date(data.generated_at).toLocaleString([], { dateStyle: "medium", timeStyle: "short" });
+        meta.textContent = `${seasonLabel(data.season)} · Updated ${updated} from MaxPreps · Seeds use the first head-to-head game between sectional teams.`;
+        document.getElementById("nav").innerHTML = data.sectionals
+          .map((s) => `<a href="#${slug(s.name)}">${esc(s.name)}</a>`).join("");
+        document.getElementById("app").innerHTML = data.sectionals.map((s) => `
+          <section class="sectional" id="${slug(s.name)}">
+            <h2>${esc(s.name)}</h2>
+            <div class="meta">Host: ${esc(s.host)}</div>
+            <h3>Bracket</h3>
+            ${bracketHtml(s.bracket)}
+            <h3>Standings</h3>
+            ${standingsHtml(s.standings)}
+            <h3>Sectional games</h3>
+            ${gamesHtml(s.games)}
+          </section>`).join("");
+      } catch (err) {
+        meta.innerHTML = `<span class="error">Could not load standings: ${esc(err.message)}</span>`;
+      }
+    }
+    main();
+  </script>
+</body>
+</html>
