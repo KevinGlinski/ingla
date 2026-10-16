@@ -1,8 +1,1336 @@
 {
-  "generated_at": "2026-10-16T01:03:17+00:00",
+  "generated_at": "2026-10-16T01:21:02+00:00",
   "season": "25-26",
   "cutoff": "2026-05-07",
   "sectionals": [
+    {
+      "name": "Sectional 5",
+      "host": null,
+      "standings": [
+        {
+          "name": "Saint Joseph",
+          "maxpreps": "https://www.maxpreps.com/in/south-bend/south-bend-saint-joseph-huskies/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 10,
+            "l": 4,
+            "t": 0
+          },
+          "sectional": {
+            "w": 4,
+            "l": 0,
+            "t": 0
+          },
+          "wins_over": [
+            {
+              "opponent": "Northridge",
+              "score": "15-4",
+              "date": "2026-03-19"
+            },
+            {
+              "opponent": "Munster",
+              "score": "15-4",
+              "date": "2026-03-25"
+            },
+            {
+              "opponent": "Lake Central",
+              "score": "15-1",
+              "date": "2026-03-30"
+            },
+            {
+              "opponent": "Crown Point",
+              "score": "14-11",
+              "date": "2026-04-23"
+            }
+          ],
+          "seed": 1
+        },
+        {
+          "name": "Northridge",
+          "maxpreps": "https://www.maxpreps.com/in/middlebury/northridge/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 9,
+            "l": 6,
+            "t": 0
+          },
+          "sectional": {
+            "w": 3,
+            "l": 1,
+            "t": 0
+          },
+          "wins_over": [
+            {
+              "opponent": "Crown Point",
+              "score": "14-12",
+              "date": "2026-03-24"
+            },
+            {
+              "opponent": "Lake Central",
+              "score": "12-3",
+              "date": "2026-04-17"
+            },
+            {
+              "opponent": "Chesterton",
+              "score": "12-5",
+              "date": "2026-04-22"
+            }
+          ],
+          "seed": 2
+        },
+        {
+          "name": "Crown Point",
+          "maxpreps": "https://www.maxpreps.com/in/crown-point/crown-point-bulldogs/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 15,
+            "l": 5,
+            "t": 0
+          },
+          "sectional": {
+            "w": 4,
+            "l": 2,
+            "t": 0
+          },
+          "wins_over": [
+            {
+              "opponent": "Valparaiso",
+              "score": "17-2",
+              "date": "2026-03-19"
+            },
+            {
+              "opponent": "Munster",
+              "score": "16-1",
+              "date": "2026-04-11"
+            },
+            {
+              "opponent": "Lake Central",
+              "score": "10-4",
+              "date": "2026-04-16"
+            },
+            {
+              "opponent": "Chesterton",
+              "score": "22-4",
+              "date": "2026-05-06"
+            }
+          ],
+          "seed": 3
+        },
+        {
+          "name": "Chesterton",
+          "maxpreps": "https://www.maxpreps.com/in/chesterton/chesterton-trojans/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 7,
+            "l": 7,
+            "t": 0
+          },
+          "sectional": {
+            "w": 3,
+            "l": 2,
+            "t": 0
+          },
+          "wins_over": [
+            {
+              "opponent": "Valparaiso",
+              "score": "15-6",
+              "date": "2026-04-03"
+            },
+            {
+              "opponent": "Lake Central",
+              "score": "4-3",
+              "date": "2026-04-08"
+            },
+            {
+              "opponent": "Munster",
+              "score": "9-5",
+              "date": "2026-04-30"
+            }
+          ],
+          "seed": 4
+        },
+        {
+          "name": "Lake Central",
+          "maxpreps": "https://www.maxpreps.com/in/st-john/lake-central-indians/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 9,
+            "l": 7,
+            "t": 0
+          },
+          "sectional": {
+            "w": 2,
+            "l": 4,
+            "t": 0
+          },
+          "wins_over": [
+            {
+              "opponent": "Valparaiso",
+              "score": "12-3",
+              "date": "2026-04-06"
+            },
+            {
+              "opponent": "Munster",
+              "score": "10-4",
+              "date": "2026-04-14"
+            }
+          ],
+          "seed": 5
+        },
+        {
+          "name": "Munster",
+          "maxpreps": "https://www.maxpreps.com/in/munster/munster-mustangs/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 3,
+            "l": 6,
+            "t": 0
+          },
+          "sectional": {
+            "w": 1,
+            "l": 4,
+            "t": 0
+          },
+          "wins_over": [
+            {
+              "opponent": "Valparaiso",
+              "score": "11-6",
+              "date": "2026-04-21"
+            }
+          ],
+          "seed": 6
+        },
+        {
+          "name": "Valparaiso",
+          "maxpreps": "https://www.maxpreps.com/in/valparaiso/valparaiso-vikings/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 4,
+            "l": 7,
+            "t": 0
+          },
+          "sectional": {
+            "w": 0,
+            "l": 4,
+            "t": 0
+          },
+          "wins_over": [],
+          "seed": 7
+        }
+      ],
+      "bracket": {
+        "size": 8,
+        "rounds": [
+          [
+            {
+              "top": {
+                "seed": 1,
+                "name": "Saint Joseph"
+              },
+              "bottom": null,
+              "winner": {
+                "seed": 1,
+                "name": "Saint Joseph"
+              },
+              "score": null,
+              "date": null,
+              "bye": true
+            },
+            {
+              "top": {
+                "seed": 4,
+                "name": "Chesterton"
+              },
+              "bottom": {
+                "seed": 5,
+                "name": "Lake Central"
+              },
+              "winner": {
+                "seed": 5,
+                "name": "Lake Central"
+              },
+              "score": "11-4",
+              "date": "2026-05-08",
+              "bye": false
+            },
+            {
+              "top": {
+                "seed": 2,
+                "name": "Northridge"
+              },
+              "bottom": {
+                "seed": 7,
+                "name": "Valparaiso"
+              },
+              "winner": {
+                "seed": 2,
+                "name": "Northridge"
+              },
+              "score": "15-3",
+              "date": "2026-05-08",
+              "bye": false
+            },
+            {
+              "top": {
+                "seed": 3,
+                "name": "Crown Point"
+              },
+              "bottom": {
+                "seed": 6,
+                "name": "Munster"
+              },
+              "winner": {
+                "seed": 3,
+                "name": "Crown Point"
+              },
+              "score": "19-3",
+              "date": "2026-05-11",
+              "bye": false
+            }
+          ],
+          [
+            {
+              "top": {
+                "seed": 1,
+                "name": "Saint Joseph"
+              },
+              "bottom": {
+                "seed": 5,
+                "name": "Lake Central"
+              },
+              "winner": {
+                "seed": 1,
+                "name": "Saint Joseph"
+              },
+              "score": "17-6",
+              "date": "2026-05-13",
+              "bye": false
+            },
+            {
+              "top": {
+                "seed": 2,
+                "name": "Northridge"
+              },
+              "bottom": {
+                "seed": 3,
+                "name": "Crown Point"
+              },
+              "winner": {
+                "seed": 3,
+                "name": "Crown Point"
+              },
+              "score": "8-6",
+              "date": "2026-05-13",
+              "bye": false
+            }
+          ],
+          [
+            {
+              "top": {
+                "seed": 1,
+                "name": "Saint Joseph"
+              },
+              "bottom": {
+                "seed": 3,
+                "name": "Crown Point"
+              },
+              "winner": {
+                "seed": 3,
+                "name": "Crown Point"
+              },
+              "score": "13-9",
+              "date": "2026-05-14",
+              "bye": false
+            }
+          ]
+        ],
+        "champion": {
+          "seed": 3,
+          "name": "Crown Point"
+        }
+      },
+      "games": [
+        {
+          "date": "2026-03-10T18:00:00",
+          "home": "Chesterton",
+          "away": "Valparaiso",
+          "neutral": false,
+          "home_score": null,
+          "away_score": null,
+          "status": "unreported",
+          "counts": false,
+          "note": "no score yet",
+          "url": null
+        },
+        {
+          "date": "2026-03-12T18:00:00",
+          "home": "Valparaiso",
+          "away": "Munster",
+          "neutral": false,
+          "home_score": null,
+          "away_score": null,
+          "status": "unreported",
+          "counts": false,
+          "note": "no score yet",
+          "url": null
+        },
+        {
+          "date": "2026-03-16T19:00:00",
+          "home": "Northridge",
+          "away": "Valparaiso",
+          "neutral": false,
+          "home_score": null,
+          "away_score": null,
+          "status": "unreported",
+          "counts": false,
+          "note": "no score yet",
+          "url": null
+        },
+        {
+          "date": "2026-03-19T17:00:00",
+          "home": "Crown Point",
+          "away": "Valparaiso",
+          "neutral": false,
+          "home_score": 17,
+          "away_score": 2,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/crown-point-vs-valparaiso/3-19-2026/?c=438f774b-3d9a-4057-935d-563ea4433316"
+        },
+        {
+          "date": "2026-03-19T18:30:00",
+          "home": "Northridge",
+          "away": "Saint Joseph",
+          "neutral": false,
+          "home_score": 4,
+          "away_score": 15,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/northridge-middlebury-vs-south-bend-saint-joseph/3-19-2026/?c=51adcf13-b0e6-43c6-ba53-2a5bd898b164"
+        },
+        {
+          "date": "2026-03-24T19:00:00",
+          "home": "Crown Point",
+          "away": "Northridge",
+          "neutral": false,
+          "home_score": 12,
+          "away_score": 14,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/crown-point-vs-northridge-middlebury/3-24-2026/?c=d48e0642-3a1c-4596-b6b0-8417e523cd52"
+        },
+        {
+          "date": "2026-03-25T19:00:00",
+          "home": "Saint Joseph",
+          "away": "Munster",
+          "neutral": false,
+          "home_score": 15,
+          "away_score": 4,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/munster-vs-south-bend-saint-joseph/3-25-2026/?c=2c12a607-6299-4a8f-8208-013f29ec3f7c"
+        },
+        {
+          "date": "2026-03-30T18:00:00",
+          "home": "Lake Central",
+          "away": "Saint Joseph",
+          "neutral": false,
+          "home_score": 1,
+          "away_score": 15,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/lake-central-st-john-vs-south-bend-saint-joseph/3-30-2026/?c=fbcc9252-0db4-4800-93cd-8f0b3437cdd6"
+        },
+        {
+          "date": "2026-04-02T18:00:00",
+          "home": "Valparaiso",
+          "away": "Chesterton",
+          "neutral": false,
+          "home_score": null,
+          "away_score": null,
+          "status": "unreported",
+          "counts": false,
+          "note": "no score yet",
+          "url": null
+        },
+        {
+          "date": "2026-04-03T18:00:00",
+          "home": "Valparaiso",
+          "away": "Chesterton",
+          "neutral": false,
+          "home_score": 6,
+          "away_score": 15,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/chesterton-vs-valparaiso/4-3-2026/?c=7c560915-9abf-43e2-aa8d-47048399ff7c"
+        },
+        {
+          "date": "2026-04-06T18:00:00",
+          "home": "Valparaiso",
+          "away": "Lake Central",
+          "neutral": false,
+          "home_score": 3,
+          "away_score": 12,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/lake-central-st-john-vs-valparaiso/4-6-2026/?c=4ffbc775-1e72-4d56-930d-9dd808506781"
+        },
+        {
+          "date": "2026-04-08T18:00:00",
+          "home": "Lake Central",
+          "away": "Chesterton",
+          "neutral": false,
+          "home_score": 3,
+          "away_score": 4,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/chesterton-vs-lake-central-st-john/4-8-2026/?c=a599e897-960a-40f6-b549-af630b620701"
+        },
+        {
+          "date": "2026-04-08T18:30:00",
+          "home": "Valparaiso",
+          "away": "Crown Point",
+          "neutral": false,
+          "home_score": null,
+          "away_score": null,
+          "status": "unreported",
+          "counts": false,
+          "note": "no score yet",
+          "url": null
+        },
+        {
+          "date": "2026-04-11T13:00:00",
+          "home": "Crown Point",
+          "away": "Munster",
+          "neutral": false,
+          "home_score": 16,
+          "away_score": 1,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/crown-point-vs-munster/4-11-2026/?c=dae6be57-b024-450c-8294-a2850a15c040"
+        },
+        {
+          "date": "2026-04-13T19:00:00",
+          "home": "Saint Joseph",
+          "away": "Lake Central",
+          "neutral": false,
+          "home_score": 15,
+          "away_score": 2,
+          "status": "final",
+          "counts": false,
+          "note": "repeat meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/lake-central-st-john-vs-south-bend-saint-joseph/4-13-2026/?c=2a380043-c080-4540-9066-d43c80c38fc3"
+        },
+        {
+          "date": "2026-04-14T18:00:00",
+          "home": "Lake Central",
+          "away": "Munster",
+          "neutral": false,
+          "home_score": 10,
+          "away_score": 4,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/lake-central-st-john-vs-munster/4-14-2026/?c=69e58553-18c8-4d74-b76c-e65f0dd12289"
+        },
+        {
+          "date": "2026-04-14T19:00:00",
+          "home": "Valparaiso",
+          "away": "Northridge",
+          "neutral": false,
+          "home_score": null,
+          "away_score": null,
+          "status": "unreported",
+          "counts": false,
+          "note": "no score yet",
+          "url": null
+        },
+        {
+          "date": "2026-04-16T17:00:00",
+          "home": "Crown Point",
+          "away": "Lake Central",
+          "neutral": false,
+          "home_score": 10,
+          "away_score": 4,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/crown-point-vs-lake-central-st-john/4-16-2026/?c=d338b80d-7f2b-440e-9788-ea94e6a69f44"
+        },
+        {
+          "date": "2026-04-16T18:00:00",
+          "home": "Chesterton",
+          "away": "Valparaiso",
+          "neutral": false,
+          "home_score": 12,
+          "away_score": 8,
+          "status": "final",
+          "counts": false,
+          "note": "repeat meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/chesterton-vs-valparaiso/4-16-2026/?c=c88f7cfd-196f-4818-93d8-7dbc9c833cef"
+        },
+        {
+          "date": "2026-04-17T20:00:00",
+          "home": "Lake Central",
+          "away": "Northridge",
+          "neutral": false,
+          "home_score": 3,
+          "away_score": 12,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/lake-central-st-john-vs-northridge-middlebury/4-17-2026/?c=f496be2f-4178-40ec-a547-64a6fe0a68f9"
+        },
+        {
+          "date": "2026-04-18T15:15:00",
+          "home": "Lake Central",
+          "away": "Chesterton",
+          "neutral": false,
+          "home_score": 10,
+          "away_score": 6,
+          "status": "final",
+          "counts": false,
+          "note": "repeat meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/chesterton-vs-lake-central-st-john/4-18-2026/?c=9e7fc84f-052b-43a5-8567-b297256b157f"
+        },
+        {
+          "date": "2026-04-20T19:30:00",
+          "home": "Northridge",
+          "away": "Crown Point",
+          "neutral": false,
+          "home_score": 11,
+          "away_score": 13,
+          "status": "final",
+          "counts": false,
+          "note": "repeat meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/crown-point-vs-northridge-middlebury/4-20-2026/?c=c01a443f-0cd0-46dd-8b79-15632692b0ea"
+        },
+        {
+          "date": "2026-04-21T18:00:00",
+          "home": "Valparaiso",
+          "away": "Munster",
+          "neutral": false,
+          "home_score": 6,
+          "away_score": 11,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/munster-vs-valparaiso/4-21-2026/?c=3f21d747-1c36-44ed-aab9-f839de43696e"
+        },
+        {
+          "date": "2026-04-22T19:00:00",
+          "home": "Chesterton",
+          "away": "Northridge",
+          "neutral": false,
+          "home_score": 5,
+          "away_score": 12,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/chesterton-vs-northridge-middlebury/4-22-2026/?c=49fc95e4-b6ad-472c-9d98-1a3df40beeed"
+        },
+        {
+          "date": "2026-04-23T18:00:00",
+          "home": "Lake Central",
+          "away": "Valparaiso",
+          "neutral": false,
+          "home_score": 12,
+          "away_score": 3,
+          "status": "final",
+          "counts": false,
+          "note": "repeat meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/lake-central-st-john-vs-valparaiso/4-23-2026/?c=794c59b0-ee1f-422a-8622-657f2cb7d8c7"
+        },
+        {
+          "date": "2026-04-23T19:30:00",
+          "home": "Saint Joseph",
+          "away": "Crown Point",
+          "neutral": false,
+          "home_score": 14,
+          "away_score": 11,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/crown-point-vs-south-bend-saint-joseph/4-23-2026/?c=bbbddcac-ef1e-4265-a941-22fec99250dd"
+        },
+        {
+          "date": "2026-04-28T18:00:00",
+          "home": "Saint Joseph",
+          "away": "Valparaiso",
+          "neutral": false,
+          "home_score": null,
+          "away_score": null,
+          "status": "unreported",
+          "counts": false,
+          "note": "no score yet",
+          "url": null
+        },
+        {
+          "date": "2026-04-30T18:00:00",
+          "home": "Chesterton",
+          "away": "Munster",
+          "neutral": false,
+          "home_score": 9,
+          "away_score": 5,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/chesterton-vs-munster/4-30-2026/?c=61f66851-4187-4230-a0f8-b219338b7a66"
+        },
+        {
+          "date": "2026-05-01T17:30:00",
+          "home": "Munster",
+          "away": "Lake Central",
+          "neutral": false,
+          "home_score": 3,
+          "away_score": 8,
+          "status": "final",
+          "counts": false,
+          "note": "repeat meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/lake-central-st-john-vs-munster/5-1-2026/?c=b1cdc460-fe08-4eb9-b3fc-ec023488dc61"
+        },
+        {
+          "date": "2026-05-01T19:00:00",
+          "home": "Northridge",
+          "away": "Valparaiso",
+          "neutral": false,
+          "home_score": null,
+          "away_score": null,
+          "status": "unreported",
+          "counts": false,
+          "note": "no score yet",
+          "url": null
+        },
+        {
+          "date": "2026-05-05T17:00:00",
+          "home": "Lake Central",
+          "away": "Crown Point",
+          "neutral": false,
+          "home_score": 5,
+          "away_score": 10,
+          "status": "final",
+          "counts": false,
+          "note": "repeat meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/crown-point-vs-lake-central-st-john/5-5-2026/?c=2216f6e3-72d5-4b5d-8249-9cd9bf00a4cb"
+        },
+        {
+          "date": "2026-05-06T17:30:00",
+          "home": "Crown Point",
+          "away": "Chesterton",
+          "neutral": false,
+          "home_score": 22,
+          "away_score": 4,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/chesterton-vs-crown-point/5-6-2026/?c=fbf27f82-c49e-4f42-8f2a-3025a3a83438"
+        },
+        {
+          "date": "2026-05-08T17:30:00",
+          "home": "Chesterton",
+          "away": "Lake Central",
+          "neutral": false,
+          "home_score": 4,
+          "away_score": 11,
+          "status": "final",
+          "counts": false,
+          "note": "tournament",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/chesterton-vs-lake-central-st-john/5-8-2026/?c=1c357ebd-9ccb-4190-ae32-6ab04b84bf4f"
+        },
+        {
+          "date": "2026-05-08T20:30:00",
+          "home": "Northridge",
+          "away": "Valparaiso",
+          "neutral": true,
+          "home_score": 15,
+          "away_score": 3,
+          "status": "final",
+          "counts": false,
+          "note": "tournament",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/northridge-middlebury-vs-valparaiso/5-8-2026/?c=8d9fb228-e519-437e-a04c-fb7c0b4d0913"
+        },
+        {
+          "date": "2026-05-11T18:00:00",
+          "home": "Crown Point",
+          "away": "Munster",
+          "neutral": false,
+          "home_score": 19,
+          "away_score": 3,
+          "status": "final",
+          "counts": false,
+          "note": "tournament",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/crown-point-vs-munster/5-11-2026/?c=36d6a01c-68b6-46dc-a4c6-2d70e4c359f6"
+        },
+        {
+          "date": "2026-05-13T18:30:00",
+          "home": "Saint Joseph",
+          "away": "Lake Central",
+          "neutral": false,
+          "home_score": 17,
+          "away_score": 6,
+          "status": "final",
+          "counts": false,
+          "note": "tournament",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/lake-central-st-john-vs-south-bend-saint-joseph/5-13-2026/?c=99f0ee4f-f342-48f0-8335-ea903a1b4b4c"
+        },
+        {
+          "date": "2026-05-13T20:00:00",
+          "home": "Northridge",
+          "away": "Crown Point",
+          "neutral": false,
+          "home_score": 6,
+          "away_score": 8,
+          "status": "final",
+          "counts": false,
+          "note": "tournament",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/crown-point-vs-northridge-middlebury/5-13-2026/?c=17141ada-7ca5-420e-a4fb-24bb2feccab7"
+        },
+        {
+          "date": "2026-05-14T19:00:00",
+          "home": "Saint Joseph",
+          "away": "Crown Point",
+          "neutral": false,
+          "home_score": 9,
+          "away_score": 13,
+          "status": "final",
+          "counts": false,
+          "note": "tournament",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/crown-point-vs-south-bend-saint-joseph/5-14-2026/?c=a0dd9e2d-2c89-4e09-bfc5-3638d1377779"
+        }
+      ]
+    },
+    {
+      "name": "Sectional 6",
+      "host": null,
+      "standings": [
+        {
+          "name": "Fishers",
+          "maxpreps": "https://www.maxpreps.com/in/fishers/fishers-tigers/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 8,
+            "l": 7,
+            "t": 0
+          },
+          "sectional": {
+            "w": 4,
+            "l": 0,
+            "t": 0
+          },
+          "wins_over": [
+            {
+              "opponent": "North Central",
+              "score": "19-4",
+              "date": "2026-03-18"
+            },
+            {
+              "opponent": "Homestead",
+              "score": "14-4",
+              "date": "2026-04-22"
+            },
+            {
+              "opponent": "Lafayette Harrison",
+              "score": "15-6",
+              "date": "2026-04-29"
+            },
+            {
+              "opponent": "Lawrence North",
+              "score": "16-4",
+              "date": "2026-04-30"
+            }
+          ],
+          "seed": 1
+        },
+        {
+          "name": "Warren Central",
+          "maxpreps": "https://www.maxpreps.com/in/indianapolis/warren-central-warriors/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 7,
+            "l": 6,
+            "t": 0
+          },
+          "sectional": {
+            "w": 3,
+            "l": 0,
+            "t": 0
+          },
+          "wins_over": [
+            {
+              "opponent": "Homestead",
+              "score": "10-2",
+              "date": "2026-03-14"
+            },
+            {
+              "opponent": "North Central",
+              "score": "5-4",
+              "date": "2026-04-09"
+            },
+            {
+              "opponent": "Lawrence North",
+              "score": "16-4",
+              "date": "2026-04-23"
+            }
+          ],
+          "seed": 2
+        },
+        {
+          "name": "Lafayette Harrison",
+          "maxpreps": "https://www.maxpreps.com/in/west-lafayette/harrison-raiders/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 4,
+            "l": 6,
+            "t": 0
+          },
+          "sectional": {
+            "w": 3,
+            "l": 1,
+            "t": 0
+          },
+          "wins_over": [
+            {
+              "opponent": "Homestead",
+              "score": "13-6",
+              "date": "2026-04-17"
+            },
+            {
+              "opponent": "North Central",
+              "score": "15-6",
+              "date": "2026-04-23"
+            },
+            {
+              "opponent": "Lawrence North",
+              "score": "12-1",
+              "date": "2026-05-05"
+            }
+          ],
+          "seed": 3
+        },
+        {
+          "name": "North Central",
+          "maxpreps": "https://www.maxpreps.com/in/indianapolis/north-central-panthers/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 2,
+            "l": 10,
+            "t": 0
+          },
+          "sectional": {
+            "w": 2,
+            "l": 3,
+            "t": 0
+          },
+          "wins_over": [
+            {
+              "opponent": "Homestead",
+              "score": "9-5",
+              "date": "2026-04-13"
+            },
+            {
+              "opponent": "Lawrence North",
+              "score": "10-6",
+              "date": "2026-04-15"
+            }
+          ],
+          "seed": 4
+        },
+        {
+          "name": "Homestead",
+          "maxpreps": "https://www.maxpreps.com/in/fort-wayne/homestead-spartans/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 2,
+            "l": 10,
+            "t": 0
+          },
+          "sectional": {
+            "w": 1,
+            "l": 4,
+            "t": 0
+          },
+          "wins_over": [
+            {
+              "opponent": "Lawrence North",
+              "score": "11-3",
+              "date": "2026-04-07"
+            }
+          ],
+          "seed": 5
+        },
+        {
+          "name": "Lawrence North",
+          "maxpreps": "https://www.maxpreps.com/in/indianapolis/lawrence-north-wildcats/lacrosse/girls/25-26/schedule/",
+          "overall": {
+            "w": 2,
+            "l": 9,
+            "t": 0
+          },
+          "sectional": {
+            "w": 0,
+            "l": 5,
+            "t": 0
+          },
+          "wins_over": [],
+          "seed": 6
+        }
+      ],
+      "bracket": {
+        "size": 8,
+        "rounds": [
+          [
+            {
+              "top": {
+                "seed": 1,
+                "name": "Fishers"
+              },
+              "bottom": null,
+              "winner": {
+                "seed": 1,
+                "name": "Fishers"
+              },
+              "score": null,
+              "date": null,
+              "bye": true
+            },
+            {
+              "top": {
+                "seed": 4,
+                "name": "North Central"
+              },
+              "bottom": {
+                "seed": 5,
+                "name": "Homestead"
+              },
+              "winner": {
+                "seed": 5,
+                "name": "Homestead"
+              },
+              "score": "8-7",
+              "date": "2026-05-08",
+              "bye": false
+            },
+            {
+              "top": {
+                "seed": 2,
+                "name": "Warren Central"
+              },
+              "bottom": null,
+              "winner": {
+                "seed": 2,
+                "name": "Warren Central"
+              },
+              "score": null,
+              "date": null,
+              "bye": true
+            },
+            {
+              "top": {
+                "seed": 3,
+                "name": "Lafayette Harrison"
+              },
+              "bottom": {
+                "seed": 6,
+                "name": "Lawrence North"
+              },
+              "winner": {
+                "seed": 6,
+                "name": "Lawrence North"
+              },
+              "score": "7-6",
+              "date": "2026-05-11",
+              "bye": false
+            }
+          ],
+          [
+            {
+              "top": {
+                "seed": 1,
+                "name": "Fishers"
+              },
+              "bottom": {
+                "seed": 5,
+                "name": "Homestead"
+              },
+              "winner": {
+                "seed": 1,
+                "name": "Fishers"
+              },
+              "score": "16-5",
+              "date": "2026-05-14",
+              "bye": false
+            },
+            {
+              "top": {
+                "seed": 2,
+                "name": "Warren Central"
+              },
+              "bottom": {
+                "seed": 6,
+                "name": "Lawrence North"
+              },
+              "winner": {
+                "seed": 2,
+                "name": "Warren Central"
+              },
+              "score": "10-4",
+              "date": "2026-05-14",
+              "bye": false
+            }
+          ],
+          [
+            {
+              "top": {
+                "seed": 1,
+                "name": "Fishers"
+              },
+              "bottom": {
+                "seed": 2,
+                "name": "Warren Central"
+              },
+              "winner": {
+                "seed": 1,
+                "name": "Fishers"
+              },
+              "score": "11-10",
+              "date": "2026-05-16",
+              "bye": false
+            }
+          ]
+        ],
+        "champion": {
+          "seed": 1,
+          "name": "Fishers"
+        }
+      },
+      "games": [
+        {
+          "date": "2026-03-14T12:30:00",
+          "home": "Homestead",
+          "away": "Warren Central",
+          "neutral": false,
+          "home_score": 2,
+          "away_score": 10,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/homestead-fort-wayne-vs-warren-central-indianapolis/3-14-2026/?c=92a502bd-d3e2-4696-bfc3-bb024ce7e5cf"
+        },
+        {
+          "date": "2026-03-18T19:00:00",
+          "home": "North Central",
+          "away": "Fishers",
+          "neutral": false,
+          "home_score": 4,
+          "away_score": 19,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/fishers-vs-north-central-indianapolis/3-18-2026/?c=835e7265-e1f5-4f10-b6c9-d86c0eabc8b7"
+        },
+        {
+          "date": "2026-04-07T18:30:00",
+          "home": "Homestead",
+          "away": "Lawrence North",
+          "neutral": false,
+          "home_score": 11,
+          "away_score": 3,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/homestead-fort-wayne-vs-lawrence-north-indianapolis/4-7-2026/?c=b7a3f1c9-decc-4550-a750-b8742e15676c"
+        },
+        {
+          "date": "2026-04-09T19:00:00",
+          "home": "North Central",
+          "away": "Warren Central",
+          "neutral": false,
+          "home_score": 4,
+          "away_score": 5,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/north-central-indianapolis-vs-warren-central-indianapolis/4-9-2026/?c=f6479680-d886-48f6-b57e-0159e5edbc05"
+        },
+        {
+          "date": "2026-04-13T19:00:00",
+          "home": "North Central",
+          "away": "Homestead",
+          "neutral": false,
+          "home_score": 9,
+          "away_score": 5,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/homestead-fort-wayne-vs-north-central-indianapolis/4-13-2026/?c=a9c3cdec-5c68-40f0-b401-c98cbbe39a9c"
+        },
+        {
+          "date": "2026-04-15T18:30:00",
+          "home": "Lawrence North",
+          "away": "North Central",
+          "neutral": false,
+          "home_score": 6,
+          "away_score": 10,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/lawrence-north-indianapolis-vs-north-central-indianapolis/4-15-2026/?c=8706a0fa-225a-4480-99de-cdc7c0926061"
+        },
+        {
+          "date": "2026-04-17T19:00:00",
+          "home": "Lafayette Harrison",
+          "away": "Homestead",
+          "neutral": false,
+          "home_score": 13,
+          "away_score": 6,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/harrison-west-lafayette-vs-homestead-fort-wayne/4-17-2026/?c=2756a58d-ea17-408b-8bcf-ed333c054cce"
+        },
+        {
+          "date": "2026-04-18T10:30:00",
+          "home": "Lafayette Harrison",
+          "away": "Fishers",
+          "neutral": false,
+          "home_score": null,
+          "away_score": null,
+          "status": "unreported",
+          "counts": false,
+          "note": "no score yet",
+          "url": null
+        },
+        {
+          "date": "2026-04-22T18:45:00",
+          "home": "Homestead",
+          "away": "Fishers",
+          "neutral": false,
+          "home_score": 4,
+          "away_score": 14,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/fishers-vs-homestead-fort-wayne/4-22-2026/?c=37a04a23-eec6-4529-a768-08c7a449b81e"
+        },
+        {
+          "date": "2026-04-23T18:00:00",
+          "home": "Warren Central",
+          "away": "Lawrence North",
+          "neutral": false,
+          "home_score": 16,
+          "away_score": 4,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/lawrence-north-indianapolis-vs-warren-central-indianapolis/4-23-2026/?c=de71cda5-037c-4c9f-8eab-0ccfb31cd628"
+        },
+        {
+          "date": "2026-04-23T19:00:00",
+          "home": "Lafayette Harrison",
+          "away": "North Central",
+          "neutral": false,
+          "home_score": 15,
+          "away_score": 6,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/harrison-west-lafayette-vs-north-central-indianapolis/4-23-2026/?c=de334c27-c2a9-4d9e-9240-a93c3f2d4c37"
+        },
+        {
+          "date": "2026-04-29T18:00:00",
+          "home": "Fishers",
+          "away": "Lafayette Harrison",
+          "neutral": false,
+          "home_score": 15,
+          "away_score": 6,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/fishers-vs-harrison-west-lafayette/4-29-2026/?c=0b2caf12-2798-40dd-a860-169b5a5e859f"
+        },
+        {
+          "date": "2026-04-30T18:30:00",
+          "home": "Fishers",
+          "away": "Lawrence North",
+          "neutral": false,
+          "home_score": 16,
+          "away_score": 4,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/fishers-vs-lawrence-north-indianapolis/4-30-2026/?c=3793c9b7-210e-4a87-852e-a1258e99a2db"
+        },
+        {
+          "date": "2026-05-05T19:00:00",
+          "home": "Lafayette Harrison",
+          "away": "Lawrence North",
+          "neutral": false,
+          "home_score": 12,
+          "away_score": 1,
+          "status": "final",
+          "counts": true,
+          "note": "first meeting",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/harrison-west-lafayette-vs-lawrence-north-indianapolis/5-5-2026/?c=562d9ef9-d2b0-4960-96d5-bf9050c0df1d"
+        },
+        {
+          "date": "2026-05-08T19:00:00",
+          "home": "North Central",
+          "away": "Homestead",
+          "neutral": false,
+          "home_score": 7,
+          "away_score": 8,
+          "status": "final",
+          "counts": false,
+          "note": "tournament",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/homestead-fort-wayne-vs-north-central-indianapolis/5-8-2026/?c=e5567253-8146-41e3-81f4-17de9309832d"
+        },
+        {
+          "date": "2026-05-11T18:00:00",
+          "home": "Lawrence North",
+          "away": "Lafayette Harrison",
+          "neutral": false,
+          "home_score": 7,
+          "away_score": 6,
+          "status": "final",
+          "counts": false,
+          "note": "tournament",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/harrison-west-lafayette-vs-lawrence-north-indianapolis/5-11-2026/?c=65edbe10-7feb-4dcf-9527-3774023fb0a7"
+        },
+        {
+          "date": "2026-05-14T18:00:00",
+          "home": "Fishers",
+          "away": "Homestead",
+          "neutral": false,
+          "home_score": 16,
+          "away_score": 5,
+          "status": "final",
+          "counts": false,
+          "note": "tournament",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/fishers-vs-homestead-fort-wayne/5-14-2026/?c=68886403-c57e-4712-9d1e-08f5a6508fba"
+        },
+        {
+          "date": "2026-05-14T19:30:00",
+          "home": "Lawrence North",
+          "away": "Warren Central",
+          "neutral": true,
+          "home_score": 4,
+          "away_score": 10,
+          "status": "final",
+          "counts": false,
+          "note": "tournament",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/lawrence-north-indianapolis-vs-warren-central-indianapolis/5-14-2026/?c=3901d4b8-624a-4632-8e0f-81fc5417c23f"
+        },
+        {
+          "date": "2026-05-16T09:00:00",
+          "home": "Fishers",
+          "away": "Warren Central",
+          "neutral": false,
+          "home_score": 11,
+          "away_score": 10,
+          "status": "final",
+          "counts": false,
+          "note": "tournament",
+          "url": "https://www.maxpreps.com/in/lacrosse/girls/game/fishers-vs-warren-central-indianapolis/5-16-2026/?c=b797922b-a350-4c48-9063-26c86fe1699d"
+        }
+      ]
+    },
     {
       "name": "Sectional 7",
       "host": "Perry Meridian",

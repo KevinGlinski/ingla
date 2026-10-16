@@ -167,6 +167,20 @@ def build_sectional(sec, schools, cutoff, today):
             "url": c[C_URL],
         })
 
+    # Each team can enter the same game, so one game can show up twice with
+    # different contest IDs. MaxPreps also uses 1900/1901 dates for undated
+    # games. Drop copies without a score when a scored copy or an earlier
+    # copy exists on that date, and drop undated games without a score.
+    finals = {(frozenset((g["home"], g["away"])), g["date"][:10]) for g in games if g["status"] == "final"}
+    kept, seen = [], set()
+    for g in games:
+        key = (frozenset((g["home"], g["away"])), g["date"][:10])
+        if g["status"] != "final" and (key in finals or key in seen or g["date"] < "2000"):
+            continue
+        seen.add(key)
+        kept.append(g)
+    games = kept
+
     counted_pairs = set()
     for g in games:
         pair = frozenset((g["home"], g["away"]))

@@ -155,7 +155,7 @@
         document.getElementById("app").innerHTML = data.sectionals.map((s) => `
           <section class="sectional" id="${slug(s.name)}">
             <h2>${esc(s.name)}</h2>
-            <div class="meta">Host: ${esc(s.host)}</div>
+            ${s.host ? `<div class="meta">Host: ${esc(s.host)}</div>` : ""}
             <h3>Bracket</h3>
             ${bracketHtml(s.bracket)}
             <h3>Standings</h3>

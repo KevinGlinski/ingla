@@ -8,6 +8,36 @@ sport: lacrosse/girls
 cutoff: 2026-05-07
 
 sectionals:
+  - name: Sectional 5
+    schools:
+      - name: Munster
+        maxpreps: https://www.maxpreps.com/in/munster/munster-mustangs/
+      - name: Lake Central
+        maxpreps: https://www.maxpreps.com/in/st-john/lake-central-indians/
+      - name: Valparaiso
+        maxpreps: https://www.maxpreps.com/in/valparaiso/valparaiso-vikings/
+      - name: Saint Joseph
+        maxpreps: https://www.maxpreps.com/in/south-bend/south-bend-saint-joseph-huskies/
+      - name: Chesterton
+        maxpreps: https://www.maxpreps.com/in/chesterton/chesterton-trojans/
+      - name: Northridge
+        maxpreps: https://www.maxpreps.com/in/middlebury/northridge/
+      - name: Crown Point
+        maxpreps: https://www.maxpreps.com/in/crown-point/crown-point-bulldogs/
+  - name: Sectional 6
+    schools:
+      - name: Lawrence North
+        maxpreps: https://www.maxpreps.com/in/indianapolis/lawrence-north-wildcats/
+      - name: North Central
+        maxpreps: https://www.maxpreps.com/in/indianapolis/north-central-panthers/
+      - name: Homestead
+        maxpreps: https://www.maxpreps.com/in/fort-wayne/homestead-spartans/
+      - name: Lafayette Harrison
+        maxpreps: https://www.maxpreps.com/in/west-lafayette/harrison-raiders/
+      - name: Warren Central
+        maxpreps: https://www.maxpreps.com/in/indianapolis/warren-central-warriors/
+      - name: Fishers
+        maxpreps: https://www.maxpreps.com/in/fishers/fishers-tigers/
   - name: Sectional 7
     host: Perry Meridian
     schools:
